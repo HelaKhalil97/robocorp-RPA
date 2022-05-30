@@ -1,0 +1,31 @@
+{"level":30,"time":"2022-05-29T04:22:08.392Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"Listening on 62484"}
+{"level":30,"time":"2022-05-29T04:22:08.492Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-05-29T04:22:08.493Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2022-05-29T04:22:18.506Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+browserType.launch: Timeout 10000ms exceeded.
+=========================== logs ===========================
+<launching> /Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/node_modules/playwright-core/.local-browsers/chromium-1005/chrome-mac/Chromium.app/Contents/MacOS/Chromium --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --enable-use-zoom-for-dsf=false --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/t7/ffp4sv6n6l38y0mt1cxcc6_m0000gn/T/playwright_chromiumdev_profile-QZ6tbG --remote-debugging-pipe --no-startup-window
+<launched> pid=76097
+============================================================
+    at _newBrowser (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:7226:49)
+    at PlaywrightState.getOrCreateActiveBrowser (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:7352:37)
+    at newPage (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:7539:43)
+    at PlaywrightServer.newPage (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:7773:34)
+    at handleUnary (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2022-05-29T04:22:18.513Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-05-29T04:22:18.513Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"Error of node method  click"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:6272:11)
+    at findLocator (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:6140:3)
+    at click (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:6961:25)
+    at PlaywrightServer.click (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/index.js:7773:34)
+    at handleUnary (/Users/helaalkudisi/.robocorp/holotree/b1f3c244e_691db988/lib/python3.7/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+=============================================================
+{"level":30,"time":"2022-05-29T04:22:18.547Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-05-29T04:22:18.547Z","pid":76090,"hostname":"Helas-MacBook.local","msg":"End of node method closeAllBrowsers"}
